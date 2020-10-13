@@ -28,7 +28,7 @@ overflow: auto;
 }
 #color
 {
-    /* padding-top: 9px; */
+    padding-top: 3px;
     color: rgb(255, 255, 255);
     position: relative;
     float: left;
@@ -41,7 +41,7 @@ overflow: auto;
 }
 #range
 {
-      /* padding-top: 9px; */
+      padding-top: 3px;
        position: relative;
        float: left;
     font-size: 20px;
@@ -57,20 +57,51 @@ overflow: auto;
 {
     position: relative;
     float: left;
-    /* height: 30px;
-    width: 40px; */
+    height: 30px;
+    width: 40px;
     /* background-color: white; */
     text-align: center;
     cursor: pointer;
+      border: 0;
+    border-radius: 5px;
     
 }
-#myRange,#myColor
+#brush:hover {
+    background-color: aquamarine;
+}
+#erase:hover
+{
+    background-color: aquamarine;
+}
+
+#erase
+{
+    margin-left: 5px;
+}
+#myRange
+{
+    cursor: pointer;
+}
+#myColor
 {
     cursor: pointer;
 }
 #save,#reset
 {
+    font-family: Verdana;
     position: relative;
     float: right;
+    width: 55px;
+    height: 30px;
+    text-align: center;
+    border-radius: 9px;
+    outline: none;
+    color: cornflowerblue;
+    cursor: pointer;
+    border: 0;
 
+}
+#reset
+{
+    margin-right: 5px;
 }
