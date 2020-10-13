@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>Document</title>
+    <style>
+
+        img
+        {
+width: 20px;
+height: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="toolbar">
+        <div id="color">Color:<input type="color" value="#000" name="myColor" id="myColor"></div>
+        <div id="range" style="color: aliceblue;">Size:1 <input type="range" name="myRange" id="myRange" value="5" min="1" max="100">100</div>
+        <button id="brush" ><img src="image/pen.png" alt=""></button>
+        <button id="erase" ><img src="image/erase2.png" alt=""></button>
+        <button id="save" class="" >Save</button>
+        <button id="reset" >Reset</button>
+    </div>
+    <canvas  id="canvas"    width="500"   height=500 ></canvas>
+
+    <!-- <script src="js/my-js.js"></script> -->
+</body>
+
+</html>
